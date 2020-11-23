@@ -1,0 +1,29 @@
+<%- include('../partials/header') %>
+<body>
+    
+    <%- include('../partials/nav') %>
+    
+    <div class="container">
+
+        
+        <div class="row justify-content-center">
+            <form class="col-9 col-md-5" action="/singup" method="POST">
+                <h1 class="display-4 mt-5 mb-5">Criar Usuário</h1>
+                
+                <input class="form-control mt-2" name="nome" placeholder="Nome" type="text">
+                <input class="form-control mt-2" name="user" placeholder="User" type="text">
+                <input class="form-control mt-2" name="email" placeholder="Email" type="email">
+                <input class="form-control mt-2" name="password" placeholder="Password" type="password">
+               
+                <button class="btn btn-primary mt-3">Cadrastar</button>
+
+              
+            </form>
+        </div>
+        
+    </div>
+
+   
+
+</body>
+<%- include('../partials/footer') %>
